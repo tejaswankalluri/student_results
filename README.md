@@ -3,7 +3,7 @@ this is a c language program that finds the total and percent of the student mar
 
 and it finds that the student had passed or failed
 
-## How To Run This code
+## How To Run This code.
 
 1.install gcc in your machine.
 
