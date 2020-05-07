@@ -1,8 +1,10 @@
 # student_results
 this is a c language program that finds the total and percent of the student marks
 
+and it finds that the student had passed or failed
 
 ## How To Run This code
+
 1.install gcc in your machine.
 
 2. clone this repo.
