@@ -3,6 +3,7 @@
 #include<windows.h>
 int percentage(int x,int y);
 int pass(int x);
+
 void main(){
     char name[100];
     int marks,i,num,sub,j,tot=0,enter_full_marks;
@@ -18,6 +19,7 @@ void main(){
     FILE *fptr;
     fptr =(fopen("student.txt","w"));
     //if file has not created 
+
     if(fptr == NULL){
         printf("error!");
         exit(1);
@@ -100,6 +102,7 @@ int percentage(int x,int y){
     int per = (float)x / (float)y * 100.0;
     return(per);
 }
+// taking 35% of the total full marks
 int pass(int x){
     
     int y = x * 35 /100;
