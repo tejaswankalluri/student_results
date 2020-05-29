@@ -37,12 +37,13 @@ void main(){
 
             printf("enter the marks of subject %d: ",j);
             scanf("%d",&marks);
-                int PassOfSubject = pass(enter_full_marks);
+                int PassOfSubject = pass(enter_full_marks);//you will get the pass percentage 
+                //checks that the student has passed the subjects or not 
                 if (marks < PassOfSubject){
 
                     failedSubjects = failedSubjects + 1;
                 }
-
+                //if the student entered more than full marks then it will give error 
                 if(marks > enter_full_marks){
                     printf("error!\n");
                     Sleep(500);
@@ -82,7 +83,7 @@ void main(){
         else{
             fprintf(fptr,"\n the student has passed!");
         }
-        
+        //for reset the values
         failedSubjects = 0;
         tot = 0;
         fprintf(fptr,"\n*********************************\n");
@@ -108,5 +109,5 @@ int pass(int x){
     int y = x * 35 /100;
     
     return(y);
-    }
+}
 
