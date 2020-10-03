@@ -4,6 +4,7 @@ this is a c language program that finds the total and percent of the student mar
 and it finds that the student had passed or failed
 
 ## How To Run This code.
+### Choose a file depends on your os like if you are using windows then choose student_marks.c. if you are in linux or mac os then choose student_marks_linux.c
 
 1.install gcc in your machine.
 
